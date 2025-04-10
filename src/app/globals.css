@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-fira-code), monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00c9ff, #92fe9d);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00dbde, #fc00ff);
+}
+
+.sobre-mim {
+  padding: 80px 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.nomeApresentacao {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.nomeApresentacao span {
+  color: #008080;
+}
+
+.nomeProfissao {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #cccccc;
+}
+
+.taglineApresentacao {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #aaaaaa;
+  white-space: pre-wrap;
+  min-height: 200px;
+}
+
+.image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-perfil {
+  border-radius: 20px;
+  object-fit: cover;
+  background: #111;
+}
