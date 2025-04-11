@@ -34,26 +34,6 @@ export default function Home() {
       );
     };
 
-    const monitorarDevTools = () => {
-      let aberto = false;
-      const threshold = 160;
-      setInterval(() => {
-        const largura = window.outerWidth - window.innerWidth > threshold;
-        const altura = window.outerHeight - window.innerHeight > threshold;
-        if ((largura || altura) && !aberto) {
-          aberto = true;
-          Swal.fire({
-            icon: "error",
-            title: "🚨 Alerta de Segurança",
-            text: "Detectamos uma tentativa de inspeção!",
-            confirmButtonColor: "#008080",
-            background: "#0D1117",
-            color: "#ffffff",
-          });
-        }
-      }, 1000);
-    };
-
     const mostrarAlerta = (titulo: string, mensagem: string) => {
       Swal.fire({
         icon: "warning",
@@ -67,7 +47,6 @@ export default function Home() {
 
     document.addEventListener("keydown", bloquearTeclas);
     document.addEventListener("contextmenu", bloquearContextMenu);
-    monitorarDevTools();
 
     return () => {
       document.removeEventListener("keydown", bloquearTeclas);
