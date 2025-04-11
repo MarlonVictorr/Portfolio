@@ -19,7 +19,7 @@ export default function Header() {
               <li>
                 <a
                   href="#sobre"
-                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition"
+                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition cursor"
                 >
                   Sobre
                 </a>
@@ -28,7 +28,7 @@ export default function Header() {
                 <a
                   href="/curriculum/curriculum.pdf"
                   target="_blank"
-                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition"
+                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition cursor"
                 >
                   Currículo
                 </a>
@@ -36,7 +36,7 @@ export default function Header() {
               <li>
                 <a
                   href="#projetos"
-                  className="text-white px-5 py-2 rounded-full hover:bg-white/15 transition"
+                  className="text-white px-5 py-2 rounded-full hover:bg-white/15 transition cursor"
                 >
                   Projetos
                 </a>
@@ -44,7 +44,7 @@ export default function Header() {
               <li>
                 <a
                   href="#contato"
-                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition"
+                  className="text-white px-5 py-2 rounded-full hover:bg-white/10 transition cursor"
                 >
                   Contato
                 </a>

@@ -7,7 +7,7 @@ export default function Projetos() {
   return (
     <motion.section
       id="projetos"
-      className="projetos py-16"
+      className="projetos py-16 border-t border-gray-700 bg-[#0e1117]"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -18,17 +18,17 @@ export default function Projetos() {
           <ProjetoCard
             titulo="Sistema CRUD PHP"
             descricao="Um sistema completo de cadastro e gerenciamento de informações usando PHP, MySQL e Bootstrap."
-            link="https://github.com/seuusuario/projeto1"
+            link="https://github.com/MarlonVictorr/PSG_CAP_202209"
           />
           <ProjetoCard
             titulo="Consumo de API com C#"
             descricao="Projeto desenvolvido para consumir APIs públicas utilizando C#, com visualização dos dados em frontend responsivo."
-            link="https://github.com/seuusuario/projeto2"
+            link="https://github.com/MarlonVictorr/PSG_CAP_202209"
           />
           <ProjetoCard
             titulo="Blog Do Santa"
             descricao="O Blog do Santa é um projeto completo que integra operações CRUD com um frontend moderno e responsivo."
-            link="https://github.com/seuusuario/projeto3"
+            link="https://github.com/MarlonVictorr/blogDoSanta"
           />
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function SobreMim() {
   return (
     <motion.section
       id="sobre"
-      className="sobre-mim py-16"
+      className="sobre-mim py-16 "
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

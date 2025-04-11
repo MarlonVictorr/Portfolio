@@ -10,6 +10,9 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Portfólio Marlon",
   description: "",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

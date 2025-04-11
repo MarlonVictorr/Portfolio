@@ -50,7 +50,7 @@ export default function Contato() {
   return (
     <motion.section
       id="contato"
-      className="contato py-16"
+      className="contato py-16 border-t border-gray-700 bg-[#0e1117]"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -62,33 +62,39 @@ export default function Contato() {
           id="nome"
           type="text"
           placeholder="Seu nome"
-          className="w-full p-3 rounded bg-[#1F2937] text-white"
+          className="w-full p-3 rounded bg-[#1F2937] text-white cursor"
           autoComplete="off"
         />
         <input
           id="email"
           type="email"
           placeholder="Seu e-mail"
-          className="w-full p-3 rounded bg-[#1F2937] text-white"
+          className="w-full p-3 rounded bg-[#1F2937] text-white cursor"
           autoComplete="off"
         />
         <textarea
           id="mensagem"
           placeholder="Sua mensagem"
-          className="w-full p-3 rounded bg-[#1F2937] text-white"
+          className="w-full p-3 rounded bg-[#1F2937] text-white cursor"
           autoComplete="off"
         />
         <button
           onClick={handleSendWhatsApp}
           disabled={carregando}
-          className="bg-[#008080] hover:scale-102 hover:shadow-lg transition-all p-3 w-full rounded text-white"
+          className="bg-[#008080] cursor hover:scale-102 hover:shadow-lg transition-all p-3 w-full rounded text-white"
         >
           {carregando ? "Enviando..." : "Enviar Mensagem"}
         </button>
         {sucesso && (
-          <p className="text-green-400 mt-2">Mensagem enviada com sucesso!</p>
+          <p className="text-green-400 mt-2 text-center">
+            Mensagem enviada com sucesso!
+          </p>
         )}
-        {erro && <p className="text-red-400 mt-2">Preencha todos os campos!</p>}
+        {erro && (
+          <p className="text-red-400 mt-2 text-center">
+            Preencha todos os campos!
+          </p>
+        )}
       </div>
     </motion.section>
   );
