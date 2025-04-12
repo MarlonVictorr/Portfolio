@@ -56,7 +56,7 @@ export default function Header() {
 
       {}
       <motion.footer
-        className="sm:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50"
+        className="sm:hidden fixed top-4 left-1/2 -translate-x-1/2 z-50"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
