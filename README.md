@@ -4,6 +4,7 @@ Portfólio Marlon
 Projeto desenvolvido para criação de uma página web moderna, responsiva e funcional.
 
 🛠️ Construído com
+
 Next.js – Framework React para aplicações web modernas
 
 React – Biblioteca JavaScript para construção de interfaces
@@ -28,7 +29,9 @@ CSS – Estilização adicional
 
 JavaScript – Interatividade no front-end
 
+
 📚 Sobre o Projeto
+
 O projeto conta com:
 
 Estruturação semântica utilizando HTML e componentes React.
@@ -50,7 +53,9 @@ Boas práticas de desenvolvimento garantidas com ESLint.
 Deploy realizado na plataforma Vercel.
 
 🔧 Como Rodar o Projeto
+
 Clone o repositório:
+
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
 Instale as dependências:
@@ -63,11 +68,14 @@ Acesse o projeto através do navegador:
 http://localhost:3000/
 
 🚀 Deploy
+
 O projeto está disponível online:
 🔗 Clique aqui para acessar o Portfólio
 
 📌 Versão
-Nós usamos GitHub para controle de versão.
+
+Usado GitHub para controle de versão.
 
 ✂️ Autor
+
 Desenvolvedor: Marlon Victor
