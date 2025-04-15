@@ -50,7 +50,7 @@ export default function Contato() {
   return (
     <motion.section
       id="contato"
-      className="contato py-16 border-t border-gray-700 bg-[#0e1117]"
+      className="py-16 border-t border-gray-700 bg-[#0e1117]"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -81,7 +81,7 @@ export default function Contato() {
         <button
           onClick={handleSendWhatsApp}
           disabled={carregando}
-          className="bg-[#008080] cursor hover:scale-102 hover:shadow-lg transition-all p-3 w-full rounded text-white"
+          className="bg-[#008080] bg-gradient-to-r cursor from-[#00C9FF] to-[#92FE9D] hover:scale-105 hover:shadow-lg transition-all p-3 w-full rounded text-black"
         >
           {carregando ? "Enviando..." : "Enviar Mensagem"}
         </button>

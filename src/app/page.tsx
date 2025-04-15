@@ -7,6 +7,7 @@ import SobreMim from "./components/sobreMim";
 import Projetos from "./components/projetos";
 import Contato from "./components/contato";
 import Footer from "./components/footer";
+import StacksCarousel from "./components/stacksCarousel";
 
 export default function Home() {
   useEffect(() => {
@@ -60,7 +61,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow container mx-auto p-6 pt-24">
         <SobreMim />
-
+        <StacksCarousel />
         <Projetos />
         <Contato />
       </main>
