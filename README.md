@@ -1,20 +1,21 @@
-
 Portfólio Marlon
+Bem-vindo ao meu portfólio!
+Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos em uma página web moderna, responsiva e funcional.
 
-Projeto desenvolvido para criação de uma página web moderna, responsiva e funcional.
+🚀 Demonstração
+Acesse o portfólio online:
+🔗 [](https://portfolio-chi-dusky-63.vercel.app)
 
-
-🛠️ Construído com
-
+🛠️ Tecnologias Utilizadas
 Next.js – Framework React para aplicações web modernas
 
 React – Biblioteca JavaScript para construção de interfaces
 
 TypeScript – Tipagem estática para JavaScript
 
-Tailwind CSS – Framework de estilização utilitário
+Tailwind CSS – Framework utilitário para estilização
 
-Framer Motion – Animações declarativas no React
+Framer Motion – Animações declarativas para React
 
 Lucide React – Ícones otimizados para React
 
@@ -24,46 +25,47 @@ SweetAlert2 – Popups e alertas personalizados
 
 ESLint – Análise de código para manter boas práticas
 
-HTML – Estruturação de conteúdo
-
-CSS – Estilização adicional
+HTML & CSS – Estruturação e estilização adicional
 
 JavaScript – Interatividade no front-end
 
-
-
 📚 Sobre o Projeto
+O portfólio apresenta:
 
-O projeto conta com:
+Estruturação semântica: Utilização de HTML5 e componentes React para melhor organização do conteúdo.
 
-Estruturação semântica utilizando HTML e componentes React.
+Design responsivo: Layout adaptável para diferentes dispositivos (mobile, tablet e desktop) com Tailwind CSS.
 
-Design responsivo para diferentes dispositivos (mobile, tablet e desktop) utilizando Tailwind CSS.
+Animações suaves: Transições e animações com Framer Motion para uma experiência mais dinâmica.
 
-Animações suaves e responsivas usando Framer Motion.
+Ícones modernos: Uso de Lucide React e React Icons para uma interface visualmente atraente.
 
-Ícones otimizados através do Lucide React e React Icons.
+Popups customizáveis: Implementação de SweetAlert2 para alertas elegantes e funcionais.
 
-Popups modernos e customizáveis com SweetAlert2.
+Código confiável: Organização de tipos e props com TypeScript, garantindo maior robustez no desenvolvimento.
 
-Scripts JavaScript e recursos React para melhorias na experiência do usuário.
+Boas práticas: ESLint para manter a qualidade e padronização do código.
 
-Organização de tipos e props com TypeScript para maior confiabilidade no desenvolvimento.
+Deploy: Hospedagem do projeto na plataforma Vercel para acesso rápido e seguro.
 
-Boas práticas de desenvolvimento garantidas com ESLint.
+📦 Como Rodar o Projeto Localmente
+bash
+# Clone o repositório
+git clone https://github.com/MarlonVictorr/portfolio.git
 
-Deploy realizado na plataforma Vercel.
+# Acesse a pasta do projeto
+cd portfolio
 
+# Instale as dependências
+npm install
 
-🚀 Deploy
+# Inicie o servidor de desenvolvimento
+npm run dev
+O projeto estará disponível em http://localhost:3000.
 
-O projeto está disponível online:
-[🔗 Clique aqui para acessar o Portfólio](https://portfolio-git-main-marlon-victors-projects-41626587.vercel.app)
+📌 Controle de Versão
+Este projeto utiliza o GitHub para controle de versão.
 
-📌 Versão
-
-Usado GitHub para controle de versão.
-
-✂️ Autor
-
+✍️ Autor
 Desenvolvedor: Marlon Victor
+LinkedIn | GitHub
