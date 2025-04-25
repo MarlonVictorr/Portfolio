@@ -79,10 +79,6 @@ Este projeto utiliza o GitHub para controle de versão.
 
 Desenvolvedor: Marlon Victor
 
-✍️ Autor
-
-Desenvolvedor: Marlon Victor
-
-[LinkedIn](https://www.linkedin.com/in/seu-linkedin) | [GitHub](https://github.com/MarlonVictorr)
+[LinkedIn](www.linkedin.com/in/marlonv1ctor) | [GitHub](https://github.com/MarlonVictorr)
 
 
