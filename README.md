@@ -79,6 +79,6 @@ Este projeto utiliza o GitHub para controle de versão.
 
 Desenvolvedor: Marlon Victor
 
-[LinkedIn](www.linkedin.com/in/marlonv1ctor) | [GitHub](https://github.com/MarlonVictorr)
+[LinkedIn](https://www.linkedin.com/in/marlonv1ctor/) | [GitHub](https://github.com/MarlonVictorr)
 
 
