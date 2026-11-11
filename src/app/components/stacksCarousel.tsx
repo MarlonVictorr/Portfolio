@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import {
   SiPhp,
   SiHtml5,
@@ -40,9 +39,8 @@ const StacksCarousel = () => {
   return (
     <div className="w-full border-t border-gray-700 overflow-hidden py-8">
       <div className="relative flex justify-center mb-10">
-        <h2 className="text-5xl text-white opacity-30 text-center">Stacks</h2>
         <h2 className="text-4xl mt-2 text-white absolute opacity-100 top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          Atuo
+          Stacks
         </h2>
       </div>
       <motion.div
